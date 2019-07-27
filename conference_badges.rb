@@ -12,7 +12,7 @@ end
 
 def assign_rooms (attendees)
   attendees.map do |people|
-    binding.pry
+    #binding.pry
     "Hello, my name is #{people}."
   end
 end  
