@@ -13,7 +13,7 @@ end
 def assign_rooms (attendees)
   attendees.map.with_index do |people,place|
     #binding.pry
-    "Hello, #{people}! You'll be assigned to room #{place}!"
+    "Hello, #{people}! You'll be assigned to room #{place+1}!"
   end
 end  
   
