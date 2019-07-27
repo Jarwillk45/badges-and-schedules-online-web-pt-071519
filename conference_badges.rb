@@ -11,9 +11,9 @@ def batch_badge_creator (attendees)
 end 
 
 def assign_rooms (attendees)
-  attendees.map do |people|
+  attendees.map.with_index do |people,place|
     #binding.pry
-    "Hello, my name is #{people}."
+    "Hello, #{person}! You'll be assigned to #{place}"
   end
 end  
   
